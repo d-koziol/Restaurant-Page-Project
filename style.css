@@ -3,16 +3,21 @@
   padding: 0;
 }
 
+#content {
+  width: 100vw;
+  height: 80vh;
+  border: 1px solid black;
+}
+
 header {
   width: 100vw;
   height: 15vh;
   border: 1px solid black;
 }
 
-#content {
-  width: 100vw;
+main {
+  width: 50vw;
   height: 80vh;
-  border: 1px solid black;
 }
 
 footer {
