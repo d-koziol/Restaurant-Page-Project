@@ -63,6 +63,8 @@ function renderWebsite() {
   content.appendChild(createNav());
   content.appendChild(createMain());
   content.appendChild(createFooter());
+
+  homeLoad();
 }
 
 export default renderWebsite;

@@ -6,6 +6,11 @@ function createHomepage() {
   homePicture.setAttribute("id", "homeImage");
   homePicture.src = "images/chicken-chef.png";
 
+  const para = document.createElement("p");
+  para.setAttribute("id", "homePara");
+  para.textContent = "Since 1992 We are The Chickenzz";
+
+  homePage.appendChild(para);
   homePage.appendChild(homePicture);
 
   return homePage;
