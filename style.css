@@ -18,11 +18,15 @@ header {
 nav {
   display: flex;
   justify-content: center;
+  padding: 1rem;
 }
 
+#homePara {
+  font-size: 24px;
+}
 #homeImage {
   width: 20rem;
-  height: 30rem;
+  height: 20rem;
 }
 
 main {
