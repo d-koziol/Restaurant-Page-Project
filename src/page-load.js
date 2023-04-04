@@ -1,3 +1,5 @@
+import homeLoad from "./home";
+
 function createHeader() {
   const header = document.createElement("header");
   header.classList.add("header");
@@ -17,6 +19,9 @@ function createNav() {
   const homeButton = document.createElement("button");
   homeButton.classList.add("nav-button");
   homeButton.textContent = "HenHouse";
+  homeButton.addEventListener("click", () => {
+    homeLoad();
+  });
 
   const menuButton = document.createElement("button");
   menuButton.classList.add("nav-button");
@@ -36,6 +41,7 @@ function createNav() {
 function createMain() {
   const main = document.createElement("main");
   main.classList.add("main");
+  main.setAttribute("id", "main");
   return main;
 }
 
