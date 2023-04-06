@@ -42,7 +42,7 @@ function createMenu() {
 
 function createDish(name, description) {
   const dish = document.createElement("div");
-  dish.classList.add = "dish-card";
+  dish.classList.add("dish-card");
 
   const dishName = document.createElement("h2");
   dishName.textContent = name;
