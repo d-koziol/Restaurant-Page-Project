@@ -29,6 +29,11 @@ nav {
   height: 20rem;
 }
 
+.dish-pic {
+  width: 15rem;
+  height: 15rem;
+}
+
 main {
   display: flex;
   justify-content: center;
