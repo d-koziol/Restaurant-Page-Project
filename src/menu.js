@@ -48,6 +48,7 @@ function createDish(name, description) {
   dishName.textContent = name;
 
   const dishDescription = document.createElement("p");
+  dishDescription.classList.add("description");
   dishDescription.textContent = description;
 
   const dishPic = document.createElement("img");
