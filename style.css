@@ -42,8 +42,14 @@ nav {
   padding: 1rem;
 }
 
+h2 {
+  font-size: 28px;
+  font-weight: 900;
+}
+
 p {
   font-size: 25px;
+  font-weight: 500;
 }
 
 button {
@@ -63,8 +69,8 @@ button:hover {
 }
 
 .menu {
-  display: grid;
-  grid-template-columns: 1fr;
+  display: flex;
+  flex-direction: column;
   align-items: center;
   justify-items: center;
   gap: 5em;
@@ -87,7 +93,6 @@ button:hover {
 #homeImage {
   width: 30vw;
   height: 30vh;
-  border-radius: 30%;
   margin-bottom: 5rem;
 }
 
