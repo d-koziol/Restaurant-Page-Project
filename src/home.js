@@ -4,7 +4,7 @@ function createHomepage() {
 
   const homePicture = document.createElement("img");
   homePicture.setAttribute("id", "homeImage");
-  homePicture.src = "images/chicken-chef.png";
+  homePicture.src = "images/chicken-chef.jpg";
 
   const para = document.createElement("p");
   para.setAttribute("id", "homePara");
